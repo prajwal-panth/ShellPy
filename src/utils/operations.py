@@ -1,6 +1,5 @@
 import os
-from utils.styles import Color
-
+from .styles import Color
 
 class ShellOperations:
     

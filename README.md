@@ -61,16 +61,18 @@ Hello, ShellPy!
 ```
 
 ## 📦 Project Structure
-
 ```bash
 ShellPy/
-├── main.py         # Entry point for the shell program
-├── commands.py     # Handles user commands and maps them to operations
-├── navigation.py   # Manages directory navigation
-├── operations.py   # Handles file and directory operations
-├── utils.py        # Utility functions and constants
-├── README.md       # Project documentation
-└── LICENSE         # MIT License file
+├── src/
+│   ├── main.py          # Main entry point for the ShellPy application
+│   └── utils/           # Utility modules for core functionality
+│       ├── __init__.py      # Defines the `utils` subpackage for imports
+│       ├── commands.py      # Handles user command execution logic
+│       ├── navigation.py    # Manages directory navigation
+│       ├── operations.py    # Handles file and directory operations
+│       └── styles.py        # Defines output styling, icons, and messages
+├── README.md           # Project documentation
+└── LICENSE             # MIT License file
 ```
 
 ## 📄 License
