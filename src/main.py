@@ -1,4 +1,4 @@
-from commands import CommandHandler
+from utils.commands import CommandHandler
 
 def main():
     print("Welcome to the Python Shell!")

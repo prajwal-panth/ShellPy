@@ -1,6 +1,6 @@
-from operations import ShellOperations
-from navigation import ShellNavigation
-from utils import Info, Color
+from utils.operations import ShellOperations
+from utils.navigation import ShellNavigation
+from utils.styles import Info, Color
 
 class CommandHandler:
     def __init__(self):

@@ -1,5 +1,5 @@
 import os
-from utils import Color, Icons
+from utils.styles import Color, Icons
 
 class ShellNavigation:
     def __init__(self, path: str = os.getcwd()):
